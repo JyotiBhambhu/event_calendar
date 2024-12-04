@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="edittext_text_size">16sp</dimen>
+    <dimen name="textview_text_size">16sp</dimen>
+    <dimen name="textview_text_size_nano">10sp</dimen>
+    <dimen name="textview_text_size_lite">11sp</dimen>
+    <dimen name="textview_text_size_small">12sp</dimen>
+    <dimen name="textview_text_size_medium">14sp</dimen>
+    <dimen name="textview_text_size_large">18sp</dimen>
+    <dimen name="textview_text_size_extra_large">22sp</dimen>
+    <dimen name="textview_text_size_extra_large_plus">36sp</dimen>
+    <dimen name="textview_text_size_omega">64sp</dimen>
+    <dimen name="sectortitle_textview_text_size">14sp</dimen>
+    <dimen name="titletextview_text_size">16sp</dimen>
+    <dimen name="titletextview_large_text_size">20sp</dimen>
+    <dimen name="titletextview_huge_text_size">30sp</dimen>
+
+    <dimen name="app_bar">4dp</dimen>
+
+    <dimen name="no_spacing">0dp</dimen>
+    <dimen name="spacing_line">1dp</dimen>
+    <dimen name="spacing_tiny">2dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_micro_plus">6dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_irrational">10dp</dimen>
+    <dimen name="spacing_normal_plus">12dp</dimen>
+    <dimen name="spacing_normal_plus_plus">14dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_title">20dp</dimen>
+    <dimen name="spacing_large_lite">24dp</dimen>
+    <dimen name="spacing_large_lite_plus">28dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="spacing_large_plus">42dp</dimen>
+    <dimen name="spacing_xlarge">48dp</dimen>
+    <dimen name="spacing_huge">64dp</dimen>
+
+    <dimen name="padding_micro">4dp</dimen>
+    <dimen name="padding_irrational">6dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_lite">14dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_normal_plus">22dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+
+    <dimen name="size_zero">0dp</dimen>
+    <dimen name="size_nano">16dp</dimen>
+    <dimen name="size_nano_lite">18dp</dimen>
+    <dimen name="size_nano_plus">20dp</dimen>
+    <dimen name="size_micro">24dp</dimen>
+    <dimen name="size_mini">32dp</dimen>
+    <dimen name="size_small">36dp</dimen>
+    <dimen name="size_small_lite">40dp</dimen>
+    <dimen name="size_small_plus">44dp</dimen>
+    <dimen name="size_normal">48dp</dimen>
+    <dimen name="size_normal_plus">52dp</dimen>
+    <dimen name="size_medium">56dp</dimen>
+    <dimen name="size_toolbar">56dp</dimen>
+    <dimen name="size_medium_pro">70dp</dimen>
+    <dimen name="size_large">72dp</dimen>
+    <dimen name="size_large_80">80dp</dimen>
+    <dimen name="size_xlarge">88dp</dimen>
+    <dimen name="size_xlarge_pro">96dp</dimen>
+    <dimen name="size_xxlarge">104dp</dimen>
+    <dimen name="size_xxxlarge">124dp</dimen>
+    <dimen name="size_omega">460dp</dimen>
+
+    <dimen name="size_small_icons">13dp</dimen>
+
+    <dimen name="button_height">60dp</dimen>
+
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_corner_radius_none">0dp</dimen>
+
+    <dimen name="elevation_normal">4dp</dimen>
+    <dimen name="elevation_standard">6dp</dimen>
+    <dimen name="elevation_medium">8dp</dimen>
+    <dimen name="elevation_above">10dp</dimen>
+    <dimen name="elevation_high">16dp</dimen>
+
+    <dimen name="radiobutton_size">22dp</dimen>
+    <dimen name="radiobutton_selected_padding">4dp</dimen>
+    <dimen name="radiobutton_radius">200dp</dimen>
+
+    <dimen name="secondary_fab_size">40dp</dimen>
+    <dimen name="dragselect_hotspot_height">40dp</dimen>
+    <dimen name="profile_width">48dp</dimen>
+    <dimen name="toolbar_icon_size">40dp</dimen>
+
+    <dimen name="switch_text_size">10sp</dimen>
+    <dimen name="switch_radius">17.5dp</dimen>
+    <dimen name="switch_thumb_size_30">30dp</dimen>
+    <dimen name="switch_thumb_padding">4dp</dimen>
+    <dimen name="switch_height">30dp</dimen>
+    <dimen name="switch_width">30dp</dimen>
+    <dimen name="switch_open_margin_start">16dp</dimen>
+    <dimen name="switch_close_margin_end">16dp</dimen>
+
+    <dimen name="thumb_size">40dp</dimen>
+    <dimen name="thumb_size_small">30dp</dimen>
+    <dimen name="track_corner">16dp</dimen>
+
+
+    //Compose Switch Values
+    <dimen name="compose_switch_track_corner">50dp</dimen>
+    <dimen name="compose_switch_thumb_size">26dp</dimen>
+    <dimen name="compose_switch_height">30dp</dimen>
+    <dimen name="compose_switch_width_small">52dp</dimen>
+    <dimen name="compose_switch_width">72dp</dimen>
+
+</resources>
