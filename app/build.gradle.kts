@@ -54,9 +54,8 @@ android {
 }
 
 dependencies {
-//    implementation(project(":eventcalender"))
-
-    implementation("com.github.jyoti:event_calendar:1.0.0")
+    implementation(project(":eventcalender"))
+//    implementation("com.github.jyoti:event_calendar:1.0.0")
 
     implementation(libs.core.ktx)
     implementation(libs.lifecycle.runtime.ktx)
