@@ -28,6 +28,35 @@ import java.time.LocalDateTime
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     private val viewModel: EventCalendarViewModel by viewModels()
+    private var calendarState: EventCalendarState = EventCalendarState(
+        selectedDate = LocalDate.of(2024, 12, 1),
+        selectDateEvents = listOf(
+            UIEvent(
+                id = "1",
+                name = UIText.DynamicString("Event"),
+                repeatRule = 1,
+                LocalDateTime.of(2024, 12, 1, 0, 0, 0),
+                uiConfig = EventUIConfig(title = R.string.app_name, icon = androidx.core.R.drawable.ic_call_answer)
+            )
+        ),
+        events = hashMapOf<LocalDate, List<UIEvent>>().apply {
+            put(
+                LocalDate.of(2024, 12, 1),
+                listOf(
+                    UIEvent(
+                        id = "1",
+                        name = UIText.DynamicString("Event"),
+                        repeatRule = 1,
+                        LocalDateTime.of(2024, 12, 1, 0, 0, 0),
+                        uiConfig = EventUIConfig(title=R.string.app_name, icon = androidx.core.R.drawable.ic_call_answer)
+                    )
+                )
+            )
+        },
+        isLoading = false,
+        error = null,
+        calendarState = CalendarUIState(currentDate = LocalDate.of(2024, 12, 1)),
+    )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -39,9 +68,6 @@ class MainActivity : ComponentActivity() {
                 ) {
                     val state by viewModel.state.collectAsStateWithLifecycle()
                     EventCalendarScreen(state) { calenderIntent ->
-                        println(
-                            calenderIntent
-                        )
                         viewModel.onIntent(calenderIntent)
                     }
                 }
